@@ -15,8 +15,8 @@ public class SoundsMapper
      withoutPedal = new HashMap<>();
      for(int i = PianoConsts.MIDI_KEY_OFFSET; i< PianoConsts.MIDI_KEY_OFFSET+ PianoConsts.NOTES_NUMBER; i++)
      {
-         withPedal.put(i,"minecraft:1c."+ i);
-         withoutPedal.put(i,"minecraft:1."+ i);
+         withPedal.put(i,"piano:1c."+ i);
+         withoutPedal.put(i,"piano:1."+ i);
      }
     }
 
